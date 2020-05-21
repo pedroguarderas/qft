@@ -1,0 +1,20 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 20.03.1 ] */
+/* [wxMaxima: input   start ] */
+s1 : matrix( [0,1], [1,0] );
+s2 : matrix( [0,-%i], [%i,0] );
+s3 : matrix( [1,0], [0,-1] );
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+g0 : matrix( [1,0,0,0],[0,1,0,0],[0,0,-1,0],[0,0,0,-1] );
+g1 : matrix( [0,0,0,1],[0,0,1,0],[0,-1,0,0],[-1,0,0,0] );
+g2 : matrix( [0,0,0,-%i],[0,0,%i,0],[0,%i,0,0],[-%i,0,0,0] );
+g3 : matrix( [0,0,1,0],[0,0,0,-1],[-1,0,0,0],[0,1,0,0] );
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 20.03.1"$
